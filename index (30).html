@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>الدرس الثالث: وصية الرشيد لمؤدب ولده الأمين</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--fg:#0a0c0b;--mut:#3b4039;--line:#b3b8ae;--card:#f3f5f1;--acc:#065247;--accbg:#d3ebe4;--u:min(1vw,1.7778vh);box-sizing:border-box;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+@supports (height:1dvh){:root{--u:min(1vw,1.7778dvh)}}
+:root[data-theme="dark"]{--bg:#0b0e0d;--fg:#f5f5f0;--mut:#c9cec5;--line:#4d534c;--card:#151a18;--acc:#6fe0c8;--accbg:#17362f}
+html{background:var(--bg);height:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:'IBM Plex Sans Arabic','Segoe UI',Tahoma,sans-serif;display:grid;place-items:center;overflow:hidden;overscroll-behavior:none;-webkit-tap-highlight-color:transparent}
+body.idle{cursor:none}
+.am{font-family:'Amiri','Traditional Arabic','Noto Naskh Arabic',serif}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:4px solid var(--acc);outline-offset:3px}
+#deck{position:relative;width:calc(var(--u)*100);height:calc(var(--u)*56.25);font-size:var(--u);line-height:1.8;overflow:hidden;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.ui{position:absolute;left:0;right:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:1em;padding:.9em 3em;font-size:1.5em;color:var(--mut);transition:opacity .3s}
+header.ui{top:0}footer.ui{bottom:.7em}
+body.idle .ui{opacity:0;pointer-events:none}
+.hd{display:flex;align-items:center;gap:.8em}
+.ui button{border:2px solid var(--line);background:var(--card);border-radius:.6em;padding:.2em 1em;min-height:max(44px,2.6em);font-size:.95em;color:var(--fg)}
+#nx{background:var(--acc);border-color:var(--acc);color:var(--bg);font-weight:700;min-width:7em}
+#pv{min-width:7em}
+.ui button:disabled{opacity:.4;cursor:default}
+#pgw{position:absolute;left:0;right:0;bottom:0;height:.5em;background:var(--line);z-index:6}
+#pg{height:100%;width:0;background:var(--acc);transition:width .25s}
+.slide{position:absolute;inset:0;display:none;padding:5em 6em 8em;overflow:hidden}
+.slide.on{display:flex;animation:f .25s ease}
+@keyframes f{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.slide.on{animation:none}#pg{transition:none}}
+.in{margin:auto;width:100%;max-width:100em;font-size:calc(var(--f,1)*1em)}
+.k{color:var(--acc);font-weight:700;font-size:1.9em;margin:0 0 .3em;display:flex;align-items:center;gap:.5em;line-height:1.5}
+.k::before{content:"";width:1.6em;height:.12em;background:var(--acc)}
+h1,h2{margin:0 0 .5em;line-height:1.4}
+h2{font-size:4.6em;font-weight:700}
+.c{text-align:center}.c .k{justify-content:center}
+.t{font-size:8.5em;line-height:1.7;margin:.1em 0 .3em;font-weight:700}
+.mut{color:var(--mut);font-size:2.1em;margin:.2em 0}
+.tx{font-size:3.7em;line-height:2.2;margin:0 0 .3em}
+.w{background:none;border:0;border-bottom:.07em dotted var(--acc);padding:0 .1em;border-radius:.1em}
+.w[aria-expanded="true"]{background:var(--accbg)}
+@media (hover:hover){.w:hover{background:var(--accbg)}}
+.g{display:grid;grid-template-columns:repeat(4,1fr);gap:.8em}
+.chip{border:2px solid var(--line);background:var(--card);border-radius:.15em;padding:.2em;font-size:3.2em;line-height:1.7;text-align:center;border-radius:.2em}
+.chip[aria-expanded="true"]{border-color:var(--acc)}
+ol{list-style:none;counter-reset:n;margin:0;padding:0;display:grid;gap:.6em}
+ol li{counter-increment:n;display:grid;grid-template-columns:1.3em 1fr;gap:.5em;font-size:2.7em;align-items:start;line-height:1.7}
+ol li::before{content:counter(n,arabic-indic);color:var(--acc);font-weight:700}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1.2em}
+.card{border:2px solid var(--line);background:var(--card);border-radius:.4em;padding:.6em .9em;font-size:2.1em;line-height:1.75}
+.card h3{margin:0 0 .3em;font-size:1.15em;color:var(--acc)}
+.card p{margin:0 0 .3em}
+.card .mut{font-size:1em}
+.big{font-size:2em;font-weight:700;line-height:1.4;margin:0 0 .1em}
+ul.d{margin:0;padding-inline-start:1.1em}ul.d li{margin-bottom:.3em}
+.rw{display:grid;grid-template-columns:1.3fr .45fr 2fr;gap:1em;align-items:center;padding:.4em 0;border-top:2px solid var(--line)}
+.rw .q{font-size:2.6em;line-height:1.7}.rw b{color:var(--acc);font-size:2.1em}.rw p{margin:0;font-size:1.9em;line-height:1.7}
+.slot{border:2px dashed var(--line);border-radius:.4em;background:var(--card);color:var(--mut);display:grid;place-content:center;justify-items:center;text-align:center;overflow:hidden;line-height:1.5}
+.slot span{font-size:1.8em}.slot bdi{font-size:1.4em;direction:ltr}
+.slot img{display:none;width:100%;height:100%;object-fit:cover}
+.slot.f{border-style:solid}.slot.f img{display:block}.slot.f span,.slot.f bdi{display:none}
+.slot.logo{width:11em;height:11em;margin:0 auto .5em}.slot.logo img{object-fit:contain}
+.slot.wide{grid-column:1/-1;height:11em}
+#gloss{position:absolute;left:50%;transform:translateX(-50%);bottom:5.5em;width:80em;z-index:7;display:flex;align-items:center;gap:1.2em;background:var(--fg);color:var(--bg);border-radius:.8em;padding:.7em 1.4em;box-shadow:0 .4em 2em rgba(0,0,0,.3)}
+#gloss[hidden]{display:none}
+#gw{font-size:3.4em;line-height:1.5;white-space:nowrap}
+#gm{flex:1;font-size:2.3em;line-height:1.6}
+#gx{background:none;border:2px solid currentColor;border-radius:.5em;padding:.2em .8em;min-height:max(44px,2.6em);font-size:1.6em}
+</style>
+</head>
+<body>
+<div id="deck">
+<header class="ui"><span>الدرس الثالث · وصية الرشيد</span><div class="hd"><span id="ct" aria-live="polite">١ من ١١</span><button id="mu" type="button" disabled>الموسيقى: لا يوجد ملف بعد</button><button id="fs" type="button">ملء الشاشة</button><button id="tg" type="button">الوضع الداكن</button></div></header>
+
+
+<section class="slide on" aria-label="العنوان"><div class="in c">
+  <div class="slot logo" data-k="logo"><img alt="شعار الجامعة"><span>مكان الشعار</span><bdi>logo.jpg</bdi></div>
+  <p class="k am" style="font-size:2.4em">الدَّرْسُ الثَّالِثُ</p>
+  <h1 class="am t">وَصِيَّةُ الرَّشِيدِ لِمُؤَدِّبِ وَلَدِهِ الأَمِينِ</h1>
+  <p class="mut">استخدم زر «التالي» أو مفتاحَي السهم للانتقال بين الشرائح</p>
+</div></section>
+
+<section class="slide" aria-label="تمهيد"><div class="in">
+  <p class="k">تمهيد</p>
+  <h2>مَدْخَلٌ إِلَى النَّصِّ</h2>
+  <ol>
+    <li><span>كَانَ الخَلِيفَةُ هَارُونُ الرَّشِيدُ حَرِيصًا عَلَى تَرْبِيَةِ أَبْنَائِهِ وَتَعْلِيمِهِمْ، فَاخْتَارَ لِتَأْدِيبِ ابْنِهِ الأَمِينِ عَالِمًا أَدِيبًا وَرِعًا تَقِيًّا، حَتَّى يَسْتَفِيدَ مِنْ عِلْمِهِ وَسُلُوكِهِ.</span></li>
+    <li><span>وَلَمْ يَتْرُكِ الأَمْرَ لِلْمُعَلِّمِ قَبْلَ أَنْ يُوَضِّحَ لَهُ الطَّرِيقَ الَّذِي يَسْلُكُهُ فِي تَرْبِيَةِ ابْنِهِ وَتَعْلِيمِهِ، فَأَوْصَاهُ بِهَذِهِ الوَصِيَّةِ.</span></li>
+    <li><span>وَهِيَ وَصِيَّةٌ عَظِيمَةُ الأَهَمِّيَّةِ عِنْدَ عُلَمَاءِ التَّرْبِيَةِ الإِسْلَامِيَّةِ؛ لأَنَّهَا تَتَضَمَّنُ أُصُولًا تُكَوِّنُ الشَّخْصِيَّةَ الإِسْلَامِيَّةَ القَادِرَةَ عَلَى قِيَادَةِ المُجْتَمَعِ إِلَى التَّقَدُّمِ وَالكَمَالِ، وَمَا زَالَ العُلَمَاءُ يَأْخُذُونَ بِهَا مَثَلًا صَالِحًا لِتَرْبِيَةِ الأَبْنَاءِ.</span></li>
+  </ol>
+</div></section>
+
+<section class="slide" aria-label="النص ١"><div class="in">
+  <p class="k">النَّصُّ · ١ مِنْ ٣</p>
+  <p class="tx am">وَصَّى الرَّشِيدُ مُؤَدِّبَ وَلَدِهِ الأَمِينَ، فَقَالَ:<br>«يَا <button class="w" data-m="لَقَبُ عَلِيِّ بْنِ المُبَارَكِ، الَّذِي عَهَدَ إِلَيْهِ الرَّشِيدُ بِتَأْدِيبِ ابْنِهِ.">أحْمَرُ</button>، إنَّ أَمِيرَ المُؤْمِنِينَ قَدْ دَفَعَ إلَيْكَ <button class="w" data-m="مُهْجَةُ النَّفْسِ: الرُّوحُ.">مُهْجَةَ نَفْسِهِ</button>، <button class="w" data-m="يُشَبِّهُ ابْنَهُ الأَمِينَ بِثَمَرَةِ قَلْبِهِ.">وَثَمَرَةَ قَلْبِهِ</button>، فَصَيِّرْ يَدَكَ عَلَيْهِ <button class="w" data-m="مَمْدُودَةً، وَالمَقْصُودُ أَنَّ لَكَ التَّمَكُّنَ مِنْهُ وَالسُّلْطَانَ عَلَيْهِ.">مَبْسُوطَةً</button>، وَطَاعَتَهُ لَكَ وَاجِبَةً، فَكُنْ لَهُ <button class="w" data-m="وَضَعَكَ هُنَا: وَلَّاكَ وَعَهِدَ إِلَيْكَ وَجَعَلَكَ.">بِحَيْثُ وَضَعَكَ</button> أمِيرُ المُؤْمِنِينَ،</p>
+  <p class="mut">الفِكْرَةُ: لِلْمُؤَدِّبِ السُّلْطَةُ عَلَى الأَمِينِ، وَطَاعَتُهُ وَاجِبَةٌ. اضغط على الكلمة المنقَّطة لتظهر معناها.</p>
+</div></section>
+
+<section class="slide" aria-label="النص ٢"><div class="in">
+  <p class="k">النَّصُّ · ٢ مِنْ ٣</p>
+  <p class="tx am"><button class="w" data-m="عَلِّمْهُ قِرَاءَةَ القُرْآنِ الكَرِيمِ.">أقْرِئْهُ</button> القُرْآنَ، وَعَرِّفْهُ الأَخْبَارَ، <button class="w" data-m="رِوَايَتُهُ الشِّعْرَ: حَمْلُهُ عَلَى رِوَايَتِهِ وَحِفْظِهِ.">وَرَوِّهِ</button> الأَشْعَارَ، وَعَلِّمْهُ السُّنَنَ، <button class="w" data-m="مَوَاقِعُ: جَمْعُ مَوْقِعٍ، وَهِيَ المَوَاضِعُ الَّتِي يَحْسُنُ فِيهَا الكَلَامُ.">وَبَصِّرْهُ بِمَوَاقِعِ</button> الكَلَامِ <button class="w" data-m="أَيْ: كَيْفَ يَبْدَأُ الكَلَامَ.">وَبَدْئِهِ</button>، وَامْنَعْهُ مِنَ الضَّحِكِ إِلا فِي أوْقَاتِهِ، وَخُذْهُ بِتَعْظِيمِ <button class="w" data-m="أَهْلُهُ وَقَرَابَةُ النَّبِيِّ ﷺ، وَالنَّاسُ يُجِلُّونَهُمْ.">مَشَايِخِ بَنِي هَاشِمٍ</button> إذَا دَخَلُوا عَلَيْهِ، وَرَفْعِ مَجَالِسِ <button class="w" data-m="قُوَّادُ الدَّوْلَةِ.">القُوَّادِ</button> إذَا حَضَرُوا مَجْلِسَهُ، وَلا تَمُرَّنَّ بِكَ سَاعَةٌ إِلا وَأَنْتَ <button class="w" data-m="اسْمُ فَاعِلٍ بِمَعْنَى مُكْتَسِبٍ.">مُغْتَنِمٌ</button> فَائِدَةً تُفِيدُهَا إيَّاهُ، مِنْ غَيْرِ أنْ <button class="w" data-m="أَحْزَنَهُ: جَعَلَهُ حَزِينًا.">تُحْزِنَهُ</button> <button class="w" data-m="تُعَطِّلَهُ عَنِ الفَهْمِ.">فَتُمِيتَ ذِهْنَهُ</button>،</p>
+  <p class="mut">الفِكْرَةُ: مَوَادُّ التَّعْلِيمِ، وَآدَابُ التَّعَامُلِ مَعَ النَّاسِ.</p>
+</div></section>
+
+<section class="slide" aria-label="النص ٣"><div class="in">
+  <p class="k">النَّصُّ · ٣ مِنْ ٣</p>
+  <p class="tx am">وَلا <button class="w" data-m="أَمْعَنَ فِي الشَّيْءِ: دَقَّ فِيهِ وَبَالَغَ.">تُمْعِنْ</button> فِي مُسَامَحَتِهِ <button class="w" data-m="وَجَدَهُ حُلْوًا، أَيْ مُرِيحًا.">فَيَسْتَحْلِيَ</button> الفَرَاغَ <button class="w" data-m="أَلِفَ الشَّيْءَ: اعْتَادَهُ.">وَيَأْلَفَهُ</button>، <button class="w" data-m="أَمْرٌ مِنْ قَوَّمَ: أَصْلِحْ مِنْ سُلُوكِهِ.">وَقَوِّمْهُ</button> مَا اسْتَطَعْتَ بِالقُرْبِ <button class="w" data-m="لَايَنَهُ مُلَايَنَةً: رَفَقَ بِهِ فِي مُعَامَلَتِهِ.">وَالْمُلَايَنَةِ</button>، فَإِنْ أبَاهُمَا فَعَلَيْكَ <button class="w" data-m="لَا يُلْجَأُ إِلَيْهِمَا إِلَّا إِذَا لَمْ تُثْمِرِ المُلَايَنَةُ وَالرِّقَّةُ.">بِالشِّدَّةِ وَالْغِلْظَةِ</button>».</p>
+  <p class="mut">الفِكْرَةُ: اللِّينُ أَوَّلًا، ثُمَّ الشِّدَّةُ إِنْ لَزِمَتْ.</p>
+</div></section>
+
+<section class="slide" aria-label="قائل النص"><div class="in">
+  <p class="k">قَائِلُ النَّصِّ</p>
+  <h2>هَارُونُ الرَّشِيدُ</h2>
+  <div class="two">
+    <div class="slot wide" data-k="abbasiyah"><img alt="صورة من العصر العباسي"><span>مكان الصورة</span><bdi>abbasiyah.jpg</bdi></div>
+    <div class="card">
+      <p class="big">١٤٩ - ١٩٣ هـ</p>
+      <p class="mut" style="margin-bottom:.6em">٧٦٦ - ٨٠٩ م</p>
+      <ul class="d">
+        <li>ابْنُ مُحَمَّدٍ المَهْدِيِّ بْنِ المَنْصُورِ العَبَّاسِيِّ، خَامِسُ خُلَفَاءِ الدَّوْلَةِ العَبَّاسِيَّةِ.</li>
+        <li>وَلِيَ الخِلَافَةَ سَنَةَ ١٧٠ هـ، وَازْدَهَرَتِ الدَّوْلَةُ فِي أَيَّامِهِ.</li>
+        <li>كَانَ عَارِفًا بِالأَدَبِ وَأَخْبَارِ العَرَبِ وَالحَدِيثِ وَالفِقْهِ.</li>
+        <li>كَانَ يَحُجُّ سَنَةً وَيَغْزُو سَنَةً.</li>
+        <li>كَمُلَتْ فِي أَيَّامِهِ الخِلَافَةُ بِكَرَمِهِ وَعَدْلِهِ وَتَوَاضُعِهِ وَزِيَارَتِهِ العُلَمَاءَ فِي دِيَارِهِمْ.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>أَحْمَرُ: المُؤَدِّبُ</h3>
+      <p>لَقَبُ عَلِيِّ بْنِ المُبَارَكِ الَّذِي عَهَدَ إِلَيْهِ الرَّشِيدُ بِتَأْدِيبِ وَلَدِهِ.</p>
+      <p>كَانَ مَشْهُورًا بِإِجَادَةِ النَّحْوِ وَاتِّسَاعِ الحِفْظِ، تُوُفِّيَ سَنَةَ ٢٠٦ هـ أَوْ ٢٠٧ هـ.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="slide" aria-label="شرح المفردات"><div class="in">
+  <p class="k">شَرْحُ المُفْرَدَاتِ</p>
+  <h2>كَلِمَاتٌ مِفْتَاحِيَّةٌ</h2>
+  <p class="mut" style="margin-top:-.4em">اضغط على البطاقة ليظهر معناها.</p>
+  <div class="g am">
+    <button class="w chip" data-m="الوَرَعُ: التَّقْوَى.">وَرَعٌ</button>
+    <button class="w chip" data-m="اغْتَنَمَ يَغْتَنِمُ: اكْتَسَبَ. وَمُغْتَنِمٌ: اسْمُ فَاعِلٍ بِمَعْنَى مُكْتَسِبٍ.">مُغْتَنِمٌ</button>
+    <button class="w chip" data-m="أَحْزَنَ يُحْزِنُ: جَعَلَهُ حَزِينًا.">أَحْزَنَ</button>
+    <button class="w chip" data-m="اسْتَحْلَى الشَّيْءَ: وَجَدَهُ حُلْوًا، أَيْ مُرِيحًا.">اسْتَحْلَى</button>
+    <button class="w chip" data-m="أَلِفَ الشَّيْءَ: اعْتَادَهُ.">أَلِفَ</button>
+    <button class="w chip" data-m="لَايَنَهُ مُلَايَنَةً: رَفَقَ بِهِ فِي مُعَامَلَتِهِ.">مُلَايَنَةٌ</button>
+    <button class="w chip" data-m="عَهَدَ إِلَيْهِ: أَوْصَاهُ وَوَكَّلَ إِلَيْهِ الأَمْرَ.">عَهَدَ</button>
+    <button class="w chip" data-m="أَمْعَنَ فِي الشَّيْءِ: دَقَّ فِيهِ وَبَالَغَ.">أَمْعَنَ</button>
+    <button class="w chip" data-m="أَمْرٌ مِنْ قَوَّمَ يُقَوِّمُ: أَصْلَحَ مِنْ سُلُوكِهِ.">قَوِّمْهُ</button>
+    <button class="w chip" data-m="مُهْجَةُ القَلْبِ وَالنَّفْسِ: الرُّوحُ.">مُهْجَةٌ</button>
+    <button class="w chip" data-m="بَسَطَ يَدَهُ: مَدَّهَا. وَالمَقْصُودُ: التَّمَكُّنُ وَالسُّلْطَانُ.">مَبْسُوطَةٌ</button>
+    <button class="w chip" data-m="تُعَطِّلُهُ عَنِ الفَهْمِ.">تُمِيتُ ذِهْنَهُ</button>
+  </div>
+</div></section>
+
+<section class="slide" aria-label="الشرح ١"><div class="in">
+  <p class="k">الشَّرْحُ · ١</p>
+  <h2>مَقَاصِدُ الوَصِيَّةِ</h2>
+  <ol>
+    <li><span><b>اعْتِزَازُ الرَّشِيدِ بِابْنِهِ.</b> فَالأَمِينُ مُهْجَةُ نَفْسِهِ وَثَمَرَةُ قَلْبِهِ.</span></li>
+    <li><span><b>الحِرْصُ عَلَى العِلْمِ النَّافِعِ وَالسُّلُوكِ القَوِيمِ.</b> وَلِذَلِكَ أَعْطَى أُسْتَاذَهُ السُّلْطَةَ عَلَيْهِ وَأَوْجَبَ عَلَيْهِ طَاعَتَهُ.</span></li>
+    <li><span><b>بَيَانُ طَرِيقِ التَّعْلِيمِ.</b> قِرَاءَةُ القُرْآنِ الكَرِيمِ، وَالأَخْبَارُ وَالتَّارِيخُ، وَرِوَايَةُ الشِّعْرِ وَحِفْظُهُ، وَشَرْحُ الأَحَادِيثِ النَّبَوِيَّةِ وَالسَّيْرُ عَلَى سُنَنِهَا، وَالبَلَاغَةُ وَالنَّقْدُ، حَتَّى يَعْرِفَ مَتَى يَحْسُنُ الكَلَامُ وَكَيْفَ يَبْدَؤُهُ.</span></li>
+  </ol>
+</div></section>
+
+<section class="slide" aria-label="الشرح ٢"><div class="in">
+  <p class="k">الشَّرْحُ · ٢</p>
+  <h2>الآدَابُ وَالمَنْهَجُ التَّرْبَوِيُّ</h2>
+  <div class="two">
+    <div class="card">
+      <h3>آدَابٌ يَتَعَوَّدُهَا</h3>
+      <ul class="d">
+        <li>الجِدُّ فِي مَوْقِفِ الجِدِّ، فَلَا يَضْحَكُ إِلَّا فِيمَا يَدْعُو إِلَى الضَّحِكِ.</li>
+        <li>احْتِرَامُ النَّاسِ وَرِعَايَةُ أَقْدَارِهِمْ، فَيُكْرِمُ المَشَايِخَ وَالعُلَمَاءَ إِذَا دَخَلُوا عَلَيْهِ.</li>
+        <li>خَصَّ بَنِي هَاشِمٍ لأَنَّهُمْ أَهْلُهُ وَقَرَابَةُ النَّبِيِّ ﷺ، وَالنَّاسُ يُجِلُّونَهُمْ.</li>
+        <li>وَكَذَلِكَ قُوَّادُ الدَّوْلَةِ حَتَّى يَأْلَفُوهُ وَيُخْلِصُوا لَهُ.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>مَنْهَجُ المُعَامَلَةِ</h3>
+      <ul class="d">
+        <li>لَا يُبَالِغُ فِي رِوَايَةِ الأَخْبَارِ المُحْزِنَةِ وَالقِصَصِ الَّتِي تُحْزِنُ النَّفْسَ.</li>
+        <li>لَا يُبَالِغُ فِي التَّسَامُحِ مَعَهُ حَتَّى لَا يَأْلَفَ الفَرَاغَ وَيَتَعَوَّدَ الرَّاحَةَ.</li>
+        <li>لَا يَسْتَعْمِلُ الشِّدَّةَ وَالغِلْظَةَ إِلَّا إِذَا لَمْ تُثْمِرِ المُلَايَنَةُ وَالرِّقَّةُ.</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section class="slide" aria-label="الخصائص"><div class="in">
+  <p class="k">الخَصَائِصُ</p>
+  <h2>مِنْ خَصَائِصِ هَذَا النَّصِّ</h2>
+  <ol>
+    <li><span>يَشْتَمِلُ عَلَى تَوْجِيهَاتٍ تَرْبَوِيَّةٍ سَامِيَةٍ تَمَثَّلَتْ فِي الوَصَايَا الَّتِي أَوْصَى بِهَا الرَّشِيدُ المُؤَدِّبَ.</span></li>
+    <li><span>يَدُلُّ عَلَى حِكْمَةِ الرَّشِيدِ وَبُعْدِ نَظَرِهِ وَحِرْصِهِ عَلَى تَرْبِيَةِ أَبْنَائِهِ.</span></li>
+    <li><span>يَتَضَمَّنُ بَعْضَ الأَسَالِيبِ البَلَاغِيَّةِ كَالمَجَازِ وَالكِنَايَةِ، وَهِيَ فِي الشَّرِيحَةِ التَّالِيَةِ.</span></li>
+    <li><span>وُضُوحُ أَلْفَاظِهِ وَمَعَانِيهِ وَأَفْكَارِهِ.</span></li>
+  </ol>
+</div></section>
+
+<section class="slide" aria-label="الأساليب البلاغية"><div class="in">
+  <p class="k">البَلَاغَةُ</p>
+  <h2>المَجَازُ وَالكِنَايَةُ فِي النَّصِّ</h2>
+  <div>
+    <div class="rw"><div class="am q">دَفَعَ إِلَيْكَ مُهْجَةَ نَفْسِهِ وَثَمَرَةَ قَلْبِهِ</div><b>مَجَازٌ</b><p>لَمْ يَدْفَعْ إِلَيْهِ رُوحَهُ حَقِيقَةً، وَإِنَّمَا دَفَعَ إِلَيْهِ ابْنَهُ الأَمِينَ، فَشَبَّهَهُ بِمُهْجَةِ نَفْسِهِ وَثَمَرَةِ قَلْبِهِ.</p></div>
+    <div class="rw"><div class="am q">يَدُكَ عَلَيْهِ مَبْسُوطَةً</div><b>كِنَايَةٌ</b><p>لَيْسَ المَقْصُودُ مَدَّ اليَدِ حَقِيقَةً، وَإِنَّمَا أَنَّ لَهُ السُّلْطَانَ عَلَيْهِ.</p></div>
+    <div class="rw"><div class="am q">فَكُنْ بِحَيْثُ وَضَعَكَ أَمِيرُ المُؤْمِنِينَ</div><b>مَجَازٌ</b><p>لَا يَقْصِدُ المَكَانَ الحَقِيقِيَّ، وَلَكِنْ: كُنْ مُحَافِظًا عَلَى الأَمَانَةِ وَعَلَى مُسْتَوَى المَسْؤُولِيَّةِ وَالثِّقَةِ.</p></div>
+    <div class="rw"><div class="am q">وَأَنْتَ مُغْتَنِمٌ فَائِدَةً</div><b>مَجَازٌ</b><p>الفَائِدَةُ لَيْسَتْ غَنِيمَةً حَقِيقَةً، لَكِنَّ تَحْصِيلَهَا يُحَقِّقُ المُتْعَةَ وَالسَّعَادَةَ الَّتِي تُحَقِّقُهَا الغَنِيمَةُ وَأَكْثَرَ.</p></div>
+    <div class="rw"><div class="am q">تُمِيتَ ذِهْنَهُ</div><b>مَجَازٌ</b><p>شَبَّهَ انْصِرَافَ الذِّهْنِ عَنِ الفَهْمِ بِالمَوْتِ؛ لأَنَّ الأَثَرَ مُتَشَابِهٌ: انْقِطَاعٌ عَنِ الحَيَاةِ، وَانْقِطَاعٌ عَنِ الفَائِدَةِ.</p></div>
+  </div>
+</div></section>
+
+<div id="gloss" role="status" hidden><span id="gw" class="am"></span><span id="gm"></span><button id="gx" type="button">إغلاق</button></div>
+<footer class="ui"><button id="pv" type="button">السابق</button><button id="nx" type="button">التالي</button></footer>
+<div id="pgw"><div id="pg"></div></div>
+</div>
+<script>
+(function(){
+var S=[].slice.call(document.querySelectorAll('.slide')),N=S.length,i=0,cur=null,idleT;
+function $(id){return document.getElementById(id)}
+function ad(n){return String(n).replace(/\d/g,function(d){return '٠١٢٣٤٥٦٧٨٩'.charAt(d)})}
+var pv=$('pv'),nx=$('nx'),ct=$('ct'),pg=$('pg'),gl=$('gloss'),gw=$('gw'),gm=$('gm'),tg=$('tg'),fs=$('fs'),mu=$('mu'),deck=$('deck'),root=document.documentElement;
+function fit(){
+  var s=S[i],w=s.firstElementChild,cs=getComputedStyle(s),f=1;
+  var avail=s.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
+  w.style.setProperty('--f',1);
+  while(f>.5&&w.offsetHeight>avail){f-=.04;w.style.setProperty('--f',f.toFixed(2))}
+}
+function wake(){document.body.classList.remove('idle');clearTimeout(idleT);idleT=setTimeout(function(){document.body.classList.add('idle')},3500)}
+function closeG(){gl.hidden=true;if(cur){cur.setAttribute('aria-expanded','false');cur=null}}
+function go(n){
+  n=Math.max(0,Math.min(N-1,n));closeG();
+  S.forEach(function(s,k){s.classList.toggle('on',k===n)});
+  i=n;ct.textContent=ad(n+1)+' من '+ad(N);pg.style.width=((n+1)/N*100)+'%';
+  pv.disabled=n===0;nx.disabled=n===N-1;fit();
+  try{history.replaceState(null,'','#'+(n+1))}catch(e){}
+}
+pv.onclick=function(){go(i-1)};nx.onclick=function(){go(i+1)};
+$('gx').onclick=closeG;
+document.querySelector('header.ui').addEventListener('click',wake);
+document.querySelector('footer.ui').addEventListener('click',wake);
+document.addEventListener('click',function(e){
+  var b=e.target.closest('.w');if(!b)return;
+  if(cur===b){closeG();return}
+  closeG();cur=b;b.setAttribute('aria-expanded','true');
+  gw.textContent=b.textContent.trim();gm.textContent=b.getAttribute('data-m');gl.hidden=false;
+});
+var sx=0,sy=0;
+deck.addEventListener('pointerdown',function(e){sx=e.clientX;sy=e.clientY});
+deck.addEventListener('pointerup',function(e){
+  var dx=e.clientX-sx,dy=e.clientY-sy;
+  if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)*1.5)go(dx>0?i+1:i-1);
+  else if(Math.abs(dx)<12&&Math.abs(dy)<12&&!e.target.closest('.w,button'))wake();
+});
+document.addEventListener('keydown',function(e){
+  if(e.altKey||e.ctrlKey||e.metaKey)return;
+  var k=e.key;
+  if(k==='Escape')closeG();
+  else if(k==='ArrowLeft'||(k===' '&&e.target.tagName!=='BUTTON')){e.preventDefault();go(i+1)}
+  else if(k==='ArrowRight'){e.preventDefault();go(i-1)}
+  else if(k==='Home')go(0);
+  else if(k==='End')go(N-1);
+  else if(k==='f'||k==='F')fs.click();
+});
+function isDark(){return root.dataset.theme==='dark'}
+function lbl(){tg.textContent=isDark()?'الوضع الفاتح':'الوضع الداكن'}
+try{var t=localStorage.getItem('th');if(t)root.dataset.theme=t}catch(e){}
+tg.onclick=function(){var t=isDark()?'light':'dark';root.dataset.theme=t;try{localStorage.setItem('th',t)}catch(e){}lbl()};
+lbl();
+if(!root.requestFullscreen)fs.hidden=true;
+fs.onclick=function(){try{if(document.fullscreenElement)document.exitFullscreen();else root.requestFullscreen()}catch(e){}};
+document.addEventListener('fullscreenchange',function(){fs.textContent=document.fullscreenElement?'خروج من ملء الشاشة':'ملء الشاشة';setTimeout(fit,100)});
+var A={logo:'logo.jpg',abbasiyah:'abbasiyah.jpg',backsound:'backsound.mp3'};
+[].forEach.call(document.querySelectorAll('.slot'),function(s){
+  var u=A[s.getAttribute('data-k')],im=s.querySelector('img');
+  if(!u||!im)return;
+  im.onload=function(){s.classList.add('f')};
+  im.src=u;
+});
+var au=null;
+if(A.backsound){
+  au=new Audio();au.loop=true;au.volume=.25;au.preload='metadata';
+  au.addEventListener('loadedmetadata',function(){mu.disabled=false;mu.textContent='الموسيقى: تشغيل'},{once:true});
+  au.src=A.backsound;
+}
+mu.onclick=function(){
+  if(!au)return;
+  if(au.paused){au.play().then(function(){mu.textContent='الموسيقى: إيقاف'}).catch(function(){})}
+  else{au.pause();mu.textContent='الموسيقى: تشغيل'}
+};
+var wl=null;
+function lock(){try{if(navigator.wakeLock)navigator.wakeLock.request('screen').then(function(l){wl=l}).catch(function(){})}catch(e){}}
+document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')lock()});
+lock();
+window.addEventListener('resize',fit);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
+var h=parseInt(location.hash.slice(1),10);go(h>0?h-1:0);wake();
+})();
+</script>
+</body>
+</html>
